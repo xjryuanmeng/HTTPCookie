@@ -15,6 +15,8 @@
 		D7CB3CFA204561840049B20A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CB3CF9204561840049B20A /* main.m */; };
 		D7CB3D04204561840049B20A /* cyCookieSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CB3D03204561840049B20A /* cyCookieSystemTests.m */; };
 		D7CB3D0F204561840049B20A /* cyCookieSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CB3D0E204561840049B20A /* cyCookieSystemUITests.m */; };
+		D7CB3D1E204566ED0049B20A /* cyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CB3D1D204566ED0049B20A /* cyBaseViewController.m */; };
+		D7CB3D21204568CD0049B20A /* loadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CB3D20204568CD0049B20A /* loadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D7CB3D0A204561840049B20A /* cyCookieSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cyCookieSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CB3D0E204561840049B20A /* cyCookieSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cyCookieSystemUITests.m; sourceTree = "<group>"; };
 		D7CB3D10204561840049B20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7CB3D1C204566ED0049B20A /* cyBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cyBaseViewController.h; sourceTree = "<group>"; };
+		D7CB3D1D204566ED0049B20A /* cyBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cyBaseViewController.m; sourceTree = "<group>"; };
+		D7CB3D1F204568CD0049B20A /* loadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loadViewController.h; sourceTree = "<group>"; };
+		D7CB3D20204568CD0049B20A /* loadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				D7CB3CEB204561840049B20A /* AppDelegate.m */,
 				D7CB3CED204561840049B20A /* ViewController.h */,
 				D7CB3CEE204561840049B20A /* ViewController.m */,
+				D7CB3D1C204566ED0049B20A /* cyBaseViewController.h */,
+				D7CB3D1D204566ED0049B20A /* cyBaseViewController.m */,
+				D7CB3D1F204568CD0049B20A /* loadViewController.h */,
+				D7CB3D20204568CD0049B20A /* loadViewController.m */,
 				D7CB3CF0204561840049B20A /* Main.storyboard */,
 				D7CB3CF3204561840049B20A /* Assets.xcassets */,
 				D7CB3CF5204561840049B20A /* LaunchScreen.storyboard */,
@@ -267,7 +277,9 @@
 			files = (
 				D7CB3CEF204561840049B20A /* ViewController.m in Sources */,
 				D7CB3CFA204561840049B20A /* main.m in Sources */,
+				D7CB3D21204568CD0049B20A /* loadViewController.m in Sources */,
 				D7CB3CEC204561840049B20A /* AppDelegate.m in Sources */,
+				D7CB3D1E204566ED0049B20A /* cyBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

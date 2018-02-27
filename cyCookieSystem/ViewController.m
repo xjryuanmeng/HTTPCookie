@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "loadViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)loadUrl:(id)sender {
+    [self.navigationController pushViewController:[[loadViewController alloc]init] animated:YES];
+    
 }
 
 
